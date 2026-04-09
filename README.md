@@ -1,8 +1,8 @@
 # 🏦 Banking Dashboard Analysis (Power BI)
 
-# 📌 Problem Statement
+## 📌 Problem Statement
 Develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
-# 💡 Solution
+##💡 Solution
 This project uses Power BI dashboards to help banks:
 - Analyze applicant profiles  
 - Evaluate loan repayment capability  
@@ -11,7 +11,7 @@ This project uses Power BI dashboards to help banks:
 
  With our dashboards which are created using Power BI latest tools helps the company to make a decision based on the applicant’s profile like if the applicant is likely to repay the loan then approving the loan otherwise not. 
 
-# 📊 Project Overview
+## 📊 Project Overview
 The Banking Dashboard provides a complete analysis of:
 - Loan Analysis  
 - Deposit Analysis  
@@ -20,18 +20,18 @@ The Banking Dashboard provides a complete analysis of:
 
 It helps stakeholders understand financial performance and customer behavior.
 
-# 🗂️ Dataset Description
+## 🗂️ Dataset Description
 This dataset basically contains information about bank details ,various client details which consists of multiple tables which are interlinked with each other through keys like primary key and foreign key.
 The various tables are Banking Relationship, Client-Banking, Gender, Investment Advisor and Period.
 
 
-# 🧹 Data Cleaning & Transformation
+## 🧹 Data Cleaning & Transformation
 - Created Engagement Timeframe column  
 - Created Engagement Days column using DATEDIFF  
 - Created Income Band (Low / Mid)  
 - Added Processing Fees column based on Fee Structure  
 
-# 📐 DAX Calculations
+## 📐 DAX Calculations
 
 ### SUM
 Bank Deposit = SUM('Clients - Banking'[Bank Deposits])
@@ -94,19 +94,19 @@ Used for conditional logic and categorization.
 - Combined KPIs  
 - Overall performance  
 
-# 📈 Key Insights
+## 📈 Key Insights
 - Mid-income customers contribute the most to loans  
 - European customers have the highest banking activity  
 - Australian and African regions show lower engagement  
 - Deposits are distributed across multiple account types  
 
-# 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 - Power BI  
 - Excel  
 - DAX  
 - Power Query  
 
-# 📂 Project Structure
+## 📂 Project Structure
 📁 Banking-Dashboard  
  ┣ 📂 images  
  ┃ ┣ Home.png  
@@ -118,7 +118,7 @@ Used for conditional logic and categorization.
  ┣ Banking.pbix  
  ┣ Banking Report.docx  
 
-# 🚀 Business Impact
+## 🚀 Business Impact
 - Improves loan risk analysis  
 - Enables data-driven decision-making  
 - Identifies high-value customers  
